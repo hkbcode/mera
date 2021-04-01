@@ -1,7 +1,7 @@
 {
-  "name": "hkbshopify",
+  "name": "ideal-octo-tribble",
   "private": true,
-  "description": "A blog to promote shopify store",
+  "description": "Simple Gatsbyjs Blog",
   "author": "Hemant Bhoi",
   "version": "0.1.0",
   "license": "0BSD",

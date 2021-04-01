@@ -4,7 +4,7 @@ import { Box, Text } from "@chakra-ui/react"
 function IndexPage() {
   return (
     <Box p={8}>
-      <Text fontSize="xl">hkbShopify website is coming sooon...</Text>
+      <Text fontSize="xl">Best Gatsbyjs Site with ChakraUI</Text>
     </Box>
   )
 }
