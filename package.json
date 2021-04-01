@@ -1,0 +1,39 @@
+{
+  "name": "hkbshopify",
+  "private": true,
+  "description": "A blog to promote shopify store",
+  "author": "Hemant Bhoi",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^1.0.1",
+    "@chakra-ui/react": "^1.1.5",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "framer-motion": "^3.2.1",
+    "gatsby": "^2.31.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkbcode/hkbshopify"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/hkbcode/issues"
+  }
+}
